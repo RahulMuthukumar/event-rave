@@ -1,0 +1,44 @@
+/* aboutus.css */
+
+.about-us-container {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    background-image: url('https://www.hdwallpapers.in/download/dark_purple_plain_texture_hd_dark_purple-HD.jpg'); /* Replace 'your-background-image-url.jpg' with your actual background image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mySlides {
+    display: none;
+    width: 80%;
+    max-height: 80%;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
+
+.w3-animate-fading {
+    animation: fadeInOut 5s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+        filter: blur(10px);
+    }
+    50% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}

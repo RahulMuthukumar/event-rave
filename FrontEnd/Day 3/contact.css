@@ -1,0 +1,119 @@
+/* Contact.css */
+
+.contact-container {
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 50px 20px;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+h1, h2 {
+  color:white;
+  font-weight: bold;
+}
+
+h2 {
+  color: #ff6b6b;
+}
+
+.contact-details,
+.contact-form {
+  
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  background-color: rgba(171, 19, 241, 0.8);
+}
+
+.contact-details h3 {
+  color: #000;
+}
+
+.contact-details p {
+  color: #040404;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-details p svg {
+  margin-right: 5px;
+  fill: #333;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #0d0d0d;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #b532e0;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff5252;
+}
+
+.contact-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.flip-card {
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgba(171, 19, 241, 0.8);
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  padding: 10px;
+}
