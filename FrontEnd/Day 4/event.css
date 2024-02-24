@@ -1,0 +1,53 @@
+/* event.css */
+
+
+  
+  .header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .event-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .cardss {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .cardss img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .cardss p {
+    margin: 10px 0;
+    color: #555; /* Adjust the color for better visibility */
+  }
+  
+  button {
+    background-color: #9a65ef;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
